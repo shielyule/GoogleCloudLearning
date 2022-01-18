@@ -6,3 +6,67 @@ Get $300 of free space for 90 days = get learning
 
 First lesson:
 https://cloud.google.com/compute/docs/quickstart-linux
+
+Quickstart using a Linux VM
+Learn how to create a Linux virtual machine (VM) instance in Compute Engine using the Google Cloud Console.
+
+For step-by-step guidance on this task directly in Cloud Console, click Guide me:
+
+Guide me
+
+The following sections take you through the same steps as clicking Guide me.
+
+Before you begin
+If you're new to Google Cloud, create an account to evaluate how our products perform in real-world scenarios. New customers also get $300 in free credits to run, test, and deploy workloads.
+In the Google Cloud Console, on the project selector page, select or create a Google Cloud project.
+
+Note: If you don't plan to keep the resources that you create in this procedure, create a project instead of selecting an existing project. After you finish these steps, you can delete the project, removing all resources associated with the project.
+Go to project selector
+
+Make sure that billing is enabled for your Cloud project. Learn how to confirm that billing is enabled for your project.
+
+Enable the Compute Engine API.
+Enable the Compute Engine API
+
+Create a Linux VM instance
+In the Cloud Console, go to the Create an instance page.
+Go to Create an instance
+
+In the Boot disk section, click Change to begin configuring your boot disk.
+On the Public images tab, choose Ubuntu from the Operating system list.
+Choose Ubuntu 20.04 LTS from the Version list.
+Click Select.
+
+In the Firewall section, select Allow HTTP traffic.
+To create the VM, click Create.
+Allow a short period of time for the instance to start. After the instance is ready, it's listed on the VM instances page with a green status icon.
+
+Compute Engine grants the user who creates the VM with the roles/compute.instanceAdmin role. Compute Engine also adds that user to the sudo group.
+
+Connect to the VM instance
+Connect to an instance by using the Google Cloud Console and completing the following steps. You're connected to the VM as the user you used to access the VM instances page.
+
+In the Cloud Console, go to the VM instances page.
+Go to VM instances
+
+In the list of virtual machine instances, click SSH in the row of the instance that you want to connect to
+
+SSH button next to instance name.
+Clean up
+To avoid incurring charges to your Google Cloud account for the resources used on this page, follow these steps.
+
+In the Google Cloud Console, go to the VM instances page.
+
+Go to VM instances
+
+Click the name of the instance you created.
+
+At the top of the instance's details page, click Delete.
+
+What's next
+Work through a tutorial to set up a basic web server on your new instance.
+Work through a getting started tutorial in the Google Cloud Console.
+Work through the Managing Google Cloud projects with Terraform tutorial.
+Learn how to create and manage virtual machine instances using the gcloud tool command-line tool and API.
+Learn more about the Linux images available on Compute Engine.
+Learn how to transfer your files to your instance.
