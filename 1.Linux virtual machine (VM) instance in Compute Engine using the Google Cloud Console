@@ -26,13 +26,14 @@ Create a Linux VM instance
 In the Cloud Console, go to the Create an instance page.
 Go to Create an instance
 
-In the Boot disk section, click Change to begin configuring your boot disk.
-On the Public images tab, choose Ubuntu from the Operating system list.
-Choose Ubuntu 20.04 LTS from the Version list.
-Click Select.
+- In the Boot disk section, click Change to begin configuring your boot disk.
+- On the Public images tab, choose Ubuntu from the Operating system list.
+- Choose Ubuntu 20.04 LTS from the Version list.
+- Click Select.
 
-In the Firewall section, select Allow HTTP traffic.
-To create the VM, click Create.
+- In the Firewall section, select Allow HTTP traffic.
+- To create the VM, click Create.
+
 Allow a short period of time for the instance to start. After the instance is ready, it's listed on the VM instances page with a green status icon.
 
 Compute Engine grants the user who creates the VM with the roles/compute.instanceAdmin role. Compute Engine also adds that user to the sudo group.
